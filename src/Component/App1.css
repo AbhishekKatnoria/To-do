@@ -1,0 +1,108 @@
+.main-div {
+  width: 100%;
+  height: 100vh;
+  background: #20002c;
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+  background: linear-gradient(to right, #cbb4d4, #20002c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:50px;
+}
+.center-div {
+  width: 30%;
+  height: 80vh;
+  background-color: rgb(236, 226, 226);
+  box-shadow: rgba(190, 172, 172, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+h1 {
+  color: white;
+  background: transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  width: 60%;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-input {
+  text-align: center;
+  border: none;
+  outline: none;
+  width: 10%;
+  min-height: 40px;
+  border-radius: 50%;
+  color: black;
+  font-size: 30px;
+  background: transparent;
+  margin-left: 10px;
+}
+.btn-input:hover {
+  background-color: #8566aa;
+  color: white;
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  text-transform: capitalize;
+  color: #8566aa;
+  min-height: 40px;
+  align-items: center;
+  margin-left: 40px;
+}
+.todo-style img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+ 
+}
+.todo-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-style img:hover {
+  width: 35px;
+  height: 35px;
+}
+.box-style {
+  display: flex;
+  justify-content:center ;
+  /* margin-left: 20px; */
+}
+.cheak-box {
+  background-color: #8566aa;
+  width: 25px;
+  height: 40px;
+}
+.img-style{
+  padding-right: 50px;
+}
+.cheak-box:checked + li {
+  text-decoration: line-through;
+  color: red  ;
+}
